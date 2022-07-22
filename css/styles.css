@@ -1,0 +1,62 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: blue;
+}
+
+.list {
+  list-style: none;
+}
+
+p {
+  color: brown;
+}
+
+#text,
+#text-new {
+  color: aqua;
+}
+
+#text-new {
+  color: aqua;
+}
+
+.header-link {
+  color: green;
+}
+
+* {
+  color: tomato;
+}
+
+[href="https://www.google.com/"]
+{
+  color: rgb(184, 11, 149);
+}
+
+.header a {
+  color: blue;
+}
+
+.hero-pre-title + h1 {
+  color: red;
+}
+
+.header-item ~ .header-item {
+  background-color: aquamarine;
+}
+
+/*.header a {
+  background-color: blueviolet;
+} */
+
+/* Селектори
+- Універсальний    *
+- Тег              p
+- ID  class - (id) #
+- клас      .header-link
+- Атрибута     [href]
+- Дочірній     .header > a (селектор першого нащадка)
+               .hero-pre-title + h1 ( селектор + вказує на першого сусіда знизу)
+               .header-item ~ .header-item (селектор ~ вказує на всіх сусідів знизу але без першого)
+- Нащадка       .header a
+*/
